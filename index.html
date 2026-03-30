@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Capstone Landing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800 scroll-smooth">
+
+<!-- ====NAVBAR === -->
+<header class="bg-white shadow fixed w-full z-50">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-blue-600">Capstone</h1>
+    
+    <nav class="hidden md:flex space-x-8 font-medium">
+      <a href="#" class="hover:text-blue-600">Home</a>
+      <a href="#features" class="hover:text-blue-600">Features</a>
+      <a href="#pricing" class="hover:text-blue-600">Pricing</a>
+      <a href="#contact" class="hover:text-blue-600">Contact</a>
+    </nav>
+
+    <button class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition duration-300">
+      Get Started
+    </button>
+  </div>
+</header>
+
+<div class="pt-20"></div>
+
+<!-- ===== HERO ====== -->
+<section class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
+  <div class="max-w-6xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-10 items-center">
+    
+    <div>
+      <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+        Build Modern Websites vlxx.com <br> With Tailwind
+      </h2>
+      <p class="mb-8 text-lg text-blue-100">
+        Create professional landing pages fast and responsive with modern utility-first CSS.
+      </p>
+      <div class="space-x-4">
+        <button class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition">
+          Explore Now
+        </button>
+        <button class="border border-white px-6 py-3 rounded-lg hover:bg-white hover:text-blue-600 transition">
+          Learn More
+        </button>
+      </div>
+    </div>
+
+   
+
+  </div>
+</section>
+
+<!-- ========== FEATURES ========== -->
+<section id="features" class="py-20">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold mb-12">Our Features</h3>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      
+      <div class="bg-white p-8 rounded-xl shadow hover:shadow-xl hover:-translate-y-2 transition duration-300">
+        <div class="text-blue-600 text-4xl mb-4">⚡</div>
+        <h4 class="text-xl font-semibold mb-4">Fast Performance</h4>
+        <p class="text-gray-600">
+          Optimized design with clean structure and minimal CSS.
+        </p>
+      </div>
+
+      <div class="bg-white p-8 rounded-xl shadow hover:shadow-xl hover:-translate-y-2 transition duration-300">
+        <div class="text-blue-600 text-4xl mb-4">💻</div>
+        <h4 class="text-xl font-semibold mb-4">Fully Responsive</h4>
+        <p class="text-gray-600">
+          Perfect layout on mobile, tablet and desktop devices.
+        </p>
+      </div>
+
+      <div class="bg-white p-8 rounded-xl shadow hover:shadow-xl hover:-translate-y-2 transition duration-300">
+        <div class="text-blue-600 text-4xl mb-4">🛠</div>
+        <h4 class="text-xl font-semibold mb-4">Easy Customization</h4>
+        <p class="text-gray-600">
+          Modify colors, spacing and layout effortlessly.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============= PRICING ============ -->
+<section id="pricing" class="bg-gray-100 py-20">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold mb-12">Pricing Plans</h3>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      
+      <div class="bg-white p-8 rounded-xl shadow hover:shadow-xl transition duration-300">
+        <h4 class="text-xl font-semibold mb-4">Basic</h4>
+        <p class="text-4xl font-bold mb-6">$19</p>
+        <button class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">
+          Choose Plan
+        </button>
+      </div>
+
+      <div class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-8 rounded-xl shadow-xl scale-105">
+        <h4 class="text-xl font-semibold mb-4">Pro</h4>
+        <p class="text-4xl font-bold mb-6">$49</p>
+        <button class="bg-white text-blue-600 px-6 py-2 rounded-lg hover:bg-gray-200 transition">
+          Choose Plan
+        </button>
+      </div>
+
+      <div class="bg-white p-8 rounded-xl shadow hover:shadow-xl transition duration-300">
+        <h4 class="text-xl font-semibold mb-4">Enterprise</h4>
+        <p class="text-4xl font-bold mb-6">$99</p>
+        <button class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">
+          Choose Plan
+        </button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======== CONTACT ============ -->
+<section id="contact" class="py-20">
+  <div class="max-w-3xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold mb-10">Contact Us</h3>
+
+    <form class="space-y-6">
+      <input type="text" placeholder="Your Name"
+        class="w-full p-4 rounded-lg border focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+      <input type="email" placeholder="Your Email"
+        class="w-full p-4 rounded-lg border focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+      <textarea placeholder="Your Message" rows="4"
+        class="w-full p-4 rounded-lg border focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+
+      <button type="submit"
+        class="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition">
+        Send Message
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="bg-gray-900 text-gray-400 py-6 text-center">
+  © <span id="year"></span> Capstone tòn. All rights reserved.
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
